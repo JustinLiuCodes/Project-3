@@ -1,0 +1,514 @@
+{
+  "attractions": [
+    {
+      "category": "Historic & Cultural Sites",
+      "id": 1,
+      "name": "Old San Juan",
+      "location": {
+        "municipality": "San Juan",
+        "zip_codes": "00901-02",
+        "coordinates": "18°27′59″N 66°6′37″W"
+      },
+      "description": "The heart of Puerto Rico’s history and culture, featuring colonial architecture, cobblestone streets, and historic forts.",
+      "images": [
+        "https://travel.usnews.com/dims4/USNEWS/68c4795/2147483647/resize/976x652%5E%3E/crop/976x652/quality/85/?url=https%3A%2F%2Ftravel.usnews.com%2Fimages%2Fbenedekstreet-town-street.jpg",
+        "https://i0.wp.com/stuckincustoms.smugmug.com/Portfolio/i-jWtccBS/0/9d2ecbaf/900x599/Trey%20Ratcliff%20Photo%20%2827%20of%2045%29-900x599.jpg?resize=900%2C599&ssl=1"
+      ],
+      "opening_hours": "24/7 (streets), Museum hours vary",
+      "entrance_fee": "Free (outdoor areas), museums may charge",
+      "activities": [
+        "Walking tours",
+        "Shopping",
+        "Photography",
+        "Historical sightseeing"
+      ],
+      "how_to_get_there": {
+        "by_car": "Take PR-26 from Luis Muñoz Marín Airport, then PR-1 into Old San Juan. Paid parking available.",
+        "by_bus": "AMA Bus Route T5 or M3 from Condado or Santurce.",
+        "by_trolley": "Free trolley service within Old San Juan.",
+        "by_ferry": "Take the Cataño Ferry from Cataño to Old San Juan."
+      }
+    },
+    {
+      "category": "Historic & Cultural Sites",
+      "id": 2,
+      "name": "Castillo San Felipe del Morro",
+      "location": {
+        "municipality": "San Juan",
+        "zip_codes": "00901",
+        "coordinates": "18°28′10″N 66°7′35″W"
+      },
+      "description": "A 16th-century fortress that guarded San Juan Bay, featuring breathtaking ocean views and historic military structures.",
+      "images": [
+        "https://puertoricodreams.com/wp-content/uploads/el-morro-san-juan.jpg",
+        "el_morro2.jpg"
+      ],
+      "opening_hours": "9:00 AM - 6:00 PM",
+      "entrance_fee": "$10 per person (includes access to Castillo San Cristóbal)",
+      "activities": [
+        "Historical tours",
+        "Photography",
+        "Exploring fortifications"
+      ],
+      "how_to_get_there": {
+        "by_car": "Drive into Old San Juan and park at a nearby garage, then walk to the fort.",
+        "by_trolley": "Take the free Old San Juan trolley to the entrance."
+      }
+    },
+    {
+      "category": "Historic & Cultural Sites",
+      "id": 3,
+      "name": "Castillo San Cristóbal",
+      "location": {
+        "municipality": "San Juan",
+        "zip_codes": "00901",
+        "coordinates": "18°28′1″N 66°6′47″W"
+      },
+      "description": "The largest Spanish fort in the Americas, built to protect San Juan from land attacks.",
+      "images": [
+        "https://www.jonfullerphotography.com/img/pixel.gif",
+        "san_cristobal2.jpg"
+      ],
+      "opening_hours": "9:00 AM - 6:00 PM",
+      "entrance_fee": "$10 per person (includes access to El Morro)",
+      "activities": ["Exploring tunnels", "Historical tours", "Photography"],
+      "how_to_get_there": {
+        "by_car": "Drive into Old San Juan and park nearby.",
+        "by_trolley": "Free trolley service stops at the fort."
+      }
+    },
+    {
+      "category": "Historic & Cultural Sites",
+      "id": 4,
+      "name": "La Fortaleza",
+      "location": {
+        "municipality": "San Juan",
+        "zip_codes": "00901",
+        "coordinates": "18°27′59″N 66°7′20″W"
+      },
+      "description": "The Governor’s mansion and a UNESCO World Heritage Site, originally built as a fortress.",
+      "images": [
+        "https://www.discoverpuertorico.com/sites/default/files/listing_images/profile/8013/191-3-10260_jpeg0-c6db4aa25056a36_c6db4cc2-5056-a36a-08a44f21f210721f.jpg",
+        "la_fortaleza2.jpg"
+      ],
+      "opening_hours": "Guided tours available during government hours",
+      "entrance_fee": "Free (guided tours require reservation)",
+      "activities": ["Historical tours", "Photography"],
+      "how_to_get_there": {
+        "by_car": "Limited parking, best accessed by walking or trolley within Old San Juan.",
+        "by_trolley": "Free trolley stops nearby."
+      }
+    },
+    {
+      "category": "Historic & Cultural Sites",
+      "id": 5,
+      "name": "Museo de Arte de Ponce",
+      "location": {
+        "municipality": "Ponce",
+        "zip_codes": "00717",
+        "coordinates": "18°0′47″N 66°36′50″W"
+      },
+      "description": "Puerto Rico’s most famous art museum, featuring European and Puerto Rican masterpieces.",
+      "images": [
+        "https://www.discoverpuertorico.com/sites/default/files/listing_images/profile/668/191-3-7534_jpeg0-6f59b16f5056a36_6f59b50f-5056-a36a-080fbc201c834d65.jpg",
+        "arte_ponce2.jpg"
+      ],
+      "opening_hours": "10:00 AM - 5:00 PM, Closed on Tuesdays",
+      "entrance_fee": "$6 adults, $3 children",
+      "activities": ["Art exhibitions", "Guided tours"],
+      "how_to_get_there": {
+        "by_car": "Easily accessible from PR-52 with parking on-site.",
+        "by_bus": "Local bus service available from downtown Ponce."
+      }
+    },
+    {
+      "category": "Historic & Cultural Sites",
+      "id": 6,
+      "name": "Ponce Historic Zone",
+      "location": {
+        "municipality": "Ponce",
+        "zip_codes": "00730",
+        "coordinates": "18°0′30″N 66°36′44″W"
+      },
+      "description": "A district rich in neoclassical architecture and cultural heritage.",
+      "images": [
+        "https://tripjive.com/wp-content/uploads/2025/01/Ponce-historical-sites.jpg",
+        "ponce_historic2.jpg"
+      ],
+      "opening_hours": "Varies by site",
+      "entrance_fee": "Free (some museums may charge)",
+      "activities": ["Walking tours", "Photography", "Cultural sightseeing"],
+      "how_to_get_there": {
+        "by_car": "Drive via PR-52, parking available in various locations.",
+        "by_bus": "Public transportation options available in Ponce."
+      }
+    },
+    {
+      "category": "Historic & Cultural Sites",
+      "id": 7,
+      "name": "San Germán Historic District",
+      "location": {
+        "municipality": "San Germán",
+        "zip_codes": "00683",
+        "coordinates": "18°4′59″N 67°2′57″W"
+      },
+      "description": "A colonial town with well-preserved Spanish architecture and historical landmarks.",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/9/98/LA_BOTICA.jpg",
+        "san_german2.jpg"
+      ],
+      "opening_hours": "Varies by site",
+      "entrance_fee": "Free (some attractions may charge)",
+      "activities": [
+        "Historical walking tours",
+        "Museum visits",
+        "Photography"
+      ],
+      "how_to_get_there": {
+        "by_car": "Accessible via PR-2, with parking available in the town center.",
+        "by_bus": "Limited public transportation options from larger cities."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 8,
+      "name": "Flamenco Beach",
+      "location": {
+        "municipality": "Culebra",
+        "coordinates": "18°19′37″N 65°18′28″W"
+      },
+      "description": "One of the most beautiful beaches in the world, featuring white sand and crystal-clear waters.",
+      "images": [
+        "https://beaches-searcher.com/images/beaches/630201214/PR201214.jpg",
+        "flamenco2.jpg",
+        "flamenco3.jpg"
+      ],
+      "activities": ["Swimming", "Snorkeling", "Sunbathing", "Camping"],
+      "how_to_get_there": {
+        "by_ferry": "Take the ferry from Ceiba to Culebra.",
+        "by_plane": "Fly from San Juan or Ceiba to Culebra Airport.",
+        "by_car": "Golf cart or taxi rental available on the island."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 9,
+      "name": "Playa Buyé",
+      "location": {
+        "municipality": "Cabo Rojo",
+        "coordinates": "18°05′30″N 67°11′46″W"
+      },
+      "description": "A tranquil, scenic beach with clear waters and soft sand, perfect for relaxation.",
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/36/7c/58/incredible-view.jpg?w=1800&h=1000&s=1",
+        "buye2.jpg",
+        "buye3.jpg"
+      ],
+      "activities": ["Swimming", "Kayaking", "Sunbathing", "Picnicking"],
+      "how_to_get_there": {
+        "by_car": "Drive to Cabo Rojo and follow signs to Playa Buyé. Parking is available."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 10,
+      "name": "Crash Boat Beach",
+      "location": {
+        "municipality": "Aguadilla",
+        "coordinates": "18°27′14″N 67°09′37″W"
+      },
+      "description": "Known for vibrant blue waters, diving spots, and a lively atmosphere.",
+      "images": [
+        "https://www.discoverpuertorico.com/sites/default/files/listing_images/profile/8911/191-3-9094_jpeg0-3ddd81b75056a36_3ddd8530-5056-a36a-08497fcbc53617bc.jpg",
+        "crashboat2.jpg",
+        "crashboat3.jpg"
+      ],
+      "activities": ["Swimming", "Diving", "Snorkeling", "Fishing"],
+      "how_to_get_there": {
+        "by_car": "Take PR-2 to Aguadilla and follow signs to Crash Boat Beach."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 11,
+      "name": "Luquillo Beach",
+      "location": {
+        "municipality": "Luquillo",
+        "coordinates": "18°22′36″N 65°43′18″W"
+      },
+      "description": "A family-friendly beach with calm waters and famous food kiosks.",
+      "images": [
+        "https://www.puertorico.com/wp-content/uploads/2022/10/luquillo-beach-min-2.jpg",
+        "luquillo2.jpg",
+        "luquillo3.jpg"
+      ],
+      "activities": ["Swimming", "Picnicking", "Jet Skiing", "Food Tasting"],
+      "how_to_get_there": {
+        "by_car": "Drive east on PR-3 from San Juan to Luquillo Beach."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 12,
+      "name": "Playa Jobos",
+      "location": {
+        "municipality": "Isabela",
+        "coordinates": "18°30′23″N 67°04′16″W"
+      },
+      "description": "A surfer’s paradise with strong waves and a laid-back vibe.",
+      "images": [
+        "https://www.discoverpuertorico.com/sites/default/files/listing_images/profile/8915/191-3-5645_jpeg0-7bba0eec5056a36_7bba10fa-5056-a36a-0890f54c83a06b0f.jpg",
+        "jobos2.jpg",
+        "jobos3.jpg"
+      ],
+      "activities": ["Surfing", "Swimming", "Beachcombing", "Relaxing"],
+      "how_to_get_there": {
+        "by_car": "Take PR-2 to Isabela and follow signs to Playa Jobos."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 13,
+      "name": "Tortuga Beach",
+      "location": {
+        "municipality": "Culebrita",
+        "coordinates": "18°19′50″N 65°13′00″W"
+      },
+      "description": "A hidden, untouched gem known for its crystal-clear waters and peaceful atmosphere.",
+      "images": [
+        "https://www.discoverpuertorico.com/sites/default/files/listing_images/profile/9222/culebras-playa-tortuga2_71399921-5056-A36A-089DE68B85129CB5-713998025056a36_71399c28-5056-a36a-085047630b1f70b7.jpg",
+        "tortuga2.jpg",
+        "tortuga3.jpg"
+      ],
+      "activities": ["Snorkeling", "Hiking", "Swimming", "Wildlife Watching"],
+      "how_to_get_there": {
+        "by_boat": "Take a private boat or water taxi from Culebra to Culebrita."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 14,
+      "name": "Playa Escondida",
+      "location": {
+        "municipality": "Fajardo",
+        "coordinates": "18°21′30″N 65°38′15″W"
+      },
+      "description": "A secluded, stunning beach accessible by a scenic hike.",
+      "images": [
+        "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/2d/28/d1.jpg",
+        "escondida2.jpg",
+        "escondida3.jpg"
+      ],
+      "activities": ["Hiking", "Swimming", "Photography", "Relaxing"],
+      "how_to_get_there": {
+        "by_car": "Drive to Seven Seas Beach in Fajardo and hike to Playa Escondida."
+      }
+    },
+    {
+      "category": "Best Beaches in Puerto Rico",
+      "id": 15,
+      "name": "Domes Beach",
+      "location": {
+        "municipality": "Rincón",
+        "coordinates": "18°21′52″N 67°16′37″W"
+      },
+      "description": "One of the best surfing beaches in the Caribbean, located near a decommissioned nuclear power plant.",
+      "images": [
+        "https://www.discoverpuertorico.com/sites/default/files/listing_images/profile/9218/191-3-7726_jpeg0-8b795e835056a36_8b796045-5056-a36a-08857e1326723129.jpg",
+        "domes2.jpg",
+        "domes3.jpg"
+      ],
+      "activities": ["Surfing", "Whale Watching", "Sunbathing", "Beach Walks"],
+      "how_to_get_there": {
+        "by_car": "Drive to Rincón via PR-115 and follow signs to Domes Beach."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 16,
+      "name": "El Yunque National Forest",
+      "location": {
+        "municipality": "Río Grande",
+        "coordinates": "18°17′50″N 65°47′27″W"
+      },
+      "description": "The only tropical rainforest in the U.S. National Forest System, featuring waterfalls, hiking trails, and diverse wildlife.",
+      "images": [
+        "https://media.cntraveler.com/photos/5d4ad62f3ff33100080a9123/16:9/w_2240,c_limit/01-PuertoRico-2019-ElYunqueNationalForest-GettyImages-985510974.jpg",
+        "elyunque2.jpg",
+        "elyunque3.jpg"
+      ],
+      "activities": ["Hiking", "Bird Watching", "Swimming", "Photography"],
+      "how_to_get_there": {
+        "by_car": "Take PR-191 from Río Grande into the forest entrance."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 17,
+      "name": "Mosquito Bay",
+      "location": {
+        "municipality": "Vieques",
+        "coordinates": "18°05′35″N 65°25′03″W"
+      },
+      "description": "The brightest bioluminescent bay in the world, glowing due to microorganisms that light up when disturbed.",
+      "images": [
+        "https://storage.googleapis.com/clio-images/large_1031_d1ab8472-0256-4dfd-8626-c7c1692487fc.jpg",
+        "mosquitobay2.jpg",
+        "mosquitobay3.jpg"
+      ],
+      "activities": ["Kayaking", "Night Tours", "Bioluminescent Viewing"],
+      "how_to_get_there": {
+        "by_ferry": "Take the ferry from Ceiba to Vieques, then drive to Mosquito Bay.",
+        "by_plane": "Fly to Vieques from San Juan or Ceiba."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 18,
+      "name": "Cueva Ventana",
+      "location": {
+        "municipality": "Arecibo",
+        "coordinates": "18°23′50″N 66°42′03″W"
+      },
+      "description": "A breathtaking cave with a large window opening overlooking the valley below.",
+      "images": ["cuevaventana1.jpg", "cuevaventana2.jpg", "cuevaventana3.jpg"],
+      "activities": ["Hiking", "Cave Exploration", "Photography"],
+      "how_to_get_there": {
+        "by_car": "Take PR-10 to Arecibo and follow signs to Cueva Ventana."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 19,
+      "name": "Camuy River Cave Park",
+      "location": {
+        "municipality": "Camuy",
+        "coordinates": "18°20′33″N 66°50′34″W"
+      },
+      "description": "One of the largest cave systems in the Western Hemisphere, featuring underground rivers and limestone formations.",
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/40/36/5c/explore-one-of-puerto.jpg?w=1400&h=800&s=1",
+        "camuycaves2.jpg",
+        "camuycaves3.jpg"
+      ],
+      "activities": ["Cave Exploration", "Hiking", "Photography"],
+      "how_to_get_there": {
+        "by_car": "Drive via PR-129 to Camuy River Cave Park."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 20,
+      "name": "Guánica Dry Forest",
+      "location": {
+        "municipality": "Guánica",
+        "coordinates": "17°57′53″N 66°54′42″W"
+      },
+      "description": "A unique ecosystem and hiking destination known for its dry climate and biodiversity.",
+      "images": [
+        "https://bioimages.vanderbilt.edu/biohires/ecoregions/h60226guanica500026eh517.jpg",
+        "guanicaforest2.jpg",
+        "guanicaforest3.jpg"
+      ],
+      "activities": ["Hiking", "Bird Watching", "Nature Walks"],
+      "how_to_get_there": {
+        "by_car": "Drive via PR-333 to Guánica Dry Forest Reserve."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 21,
+      "name": "Gilligan’s Island",
+      "location": {
+        "municipality": "Guánica",
+        "coordinates": "17°57′30″N 66°54′10″W"
+      },
+      "description": "A small, beautiful island great for kayaking and shallow-water swimming.",
+      "images": [
+        "https://www.puertorico.com/wp-content/uploads/2023/02/Gilligans-Island-min.jpg",
+        "gilligans2.jpg",
+        "gilligans3.jpg"
+      ],
+      "activities": ["Kayaking", "Snorkeling", "Swimming", "Picnicking"],
+      "how_to_get_there": {
+        "by_boat": "Take a water taxi from Guánica to the island."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 22,
+      "name": "Toro Negro State Forest",
+      "location": {
+        "municipality": "Jayuya",
+        "coordinates": "18°12′20″N 66°34′30″W"
+      },
+      "description": "Features waterfalls, hiking trails, and Cerro Punta, Puerto Rico’s highest peak.",
+      "images": [
+        "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjk4NDQ2MzcvZmQ0N2I5ZjE0YjEzYmEzOTNhYTkwYTI5YjQ5MjM1ODMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoyMDQ4LCJoZWlnaHQiOjIwNDgsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ==",
+        "toronegro2.jpg",
+        "toronegro3.jpg"
+      ],
+      "activities": ["Hiking", "Camping", "Bird Watching"],
+      "how_to_get_there": {
+        "by_car": "Drive via PR-143 to Toro Negro State Forest."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 23,
+      "name": "Isla de Mona",
+      "location": {
+        "municipality": "Mayagüez (offshore)",
+        "coordinates": "18°05′N 67°54′W"
+      },
+      "description": "The 'Galápagos of the Caribbean,' featuring unique wildlife and rugged terrain.",
+      "images": [
+        "https://leisurecrew.com/files/3/classified/0/Isla-de-Mona-WEB-10.jpg",
+        "monaisland2.jpg",
+        "monaisland3.jpg"
+      ],
+      "activities": ["Hiking", "Scuba Diving", "Wildlife Watching"],
+      "how_to_get_there": {
+        "by_boat": "Accessible by chartered boat from Mayagüez."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 24,
+      "name": "Charco Azul",
+      "location": {
+        "municipality": "Patillas",
+        "coordinates": "18°00′N 66°00′W"
+      },
+      "description": "A picturesque natural pool in the mountains, ideal for swimming and relaxation.",
+      "images": [
+        "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/0f/e8/01/7b.jpg",
+        "charcoazul2.jpg",
+        "charcoazul3.jpg"
+      ],
+      "activities": ["Swimming", "Hiking", "Picnicking"],
+      "how_to_get_there": {
+        "by_car": "Drive to Charco Azul via PR-184 in Patillas."
+      }
+    },
+    {
+      "category": "Nature & Outdoor Activities",
+      "id": 25,
+      "name": "Las Paylas",
+      "location": {
+        "municipality": "Luquillo",
+        "coordinates": "18°21′N 65°42′W"
+      },
+      "description": "A natural waterslide and swimming area in the rainforest, carved by the river.",
+      "images": [
+        "https://www.puertoricodaytrips.com/wp-images-1000x560/las-paylas-1.jpg",
+        "laspaylas2.jpg",
+        "laspaylas3.jpg"
+      ],
+      "activities": ["Swimming", "Watersliding", "Hiking"],
+      "how_to_get_there": {
+        "by_car": "Drive via PR-983 in Luquillo to the entrance."
+      }
+    }
+  ]
+}
