@@ -1,6 +1,12 @@
+import CategoryNavigation from './components/CategoryNavigation'
+
 import './App.css'
 
 const App = () => {
-  return <div></div>
+  return (
+    <div>
+      <CategoryNavigation />
+    </div>
+  )
 }
 export default App
