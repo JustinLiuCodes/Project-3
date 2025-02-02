@@ -1,17 +1,13 @@
 import CategoryNavigation from './components/CategoryNavigation'
 
+import attractionsData from './data/attractions.json'
+
 import './App.css'
 
 const App = () => {
-  const categories = [
-    'Historic & Cultural Sites',
-    'Best Beaches in Puerto Rico',
-    'Nature & Outdoor Activities'
-  ]
-
   return (
     <div>
-      <CategoryNavigation categories={categories} />
+      <CategoryNavigation categories={attractionsData.categories} />
     </div>
   )
 }
