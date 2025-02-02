@@ -1,11 +1,11 @@
 import CategoryNavigationButton from './CategoryNavigationButton'
 
-const CategoryNavigation = () => {
+const CategoryNavigation = ({ categories }) => {
   return (
     <nav>
-      <CategoryNavigationButton category="Cat 1" />
-      <CategoryNavigationButton category="Cat 2" />
-      <CategoryNavigationButton category="Cat 3" />
+      {categories.map((category) => (
+        <CategoryNavigationButton category={category} />
+      ))}
     </nav>
   )
 }
