@@ -4,7 +4,7 @@ const CategoryNavigation = ({ categories }) => {
   return (
     <nav>
       {categories.map((category) => (
-        <CategoryNavigationButton category={category} />
+        <CategoryNavigationButton key={category} category={category} />
       ))}
     </nav>
   )
