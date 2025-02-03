@@ -1,9 +1,13 @@
 import AttractionCard from './AttractionCard'
 
-const AttractionsList = ({ attractions }) => {
+const AttractionsList = ({ attractions, selectedCategory }) => {
+  const filteredAttractions = attractions.filter(
+    (attraction) => attraction.category === selectedCategory
+  )
+
   return (
-    <div>
-      {attractions.map((attraction) => (
+    <div className="attraction-grid">
+      {filteredAttractions.map((attraction) => (
         <AttractionCard key={attraction.id} attraction={attraction} />
       ))}
     </div>

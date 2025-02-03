@@ -1,10 +1,10 @@
-import CategoryNavigationButton from './CategoryNavigationButton'
-
-const CategoryNavigation = ({ categories }) => {
+const CategoryNavigation = ({ categories, setSelectedCategory }) => {
   return (
     <nav>
       {categories.map((category) => (
-        <CategoryNavigationButton key={category} category={category} />
+        <button key={category} onClick={() => setSelectedCategory(category)}>
+          {category}
+        </button>
       ))}
     </nav>
   )

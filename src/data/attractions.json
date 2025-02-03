@@ -71,7 +71,7 @@
       },
       "description": "The largest Spanish fort in the Americas, built to protect San Juan from land attacks.",
       "images": [
-        "https://www.jonfullerphotography.com/img/pixel.gif",
+        "http://www.starforts.com/gr/sancristobal/sancristobal45.jpg",
         "san_cristobal2.jpg"
       ],
       "opening_hours": "9:00 AM - 6:00 PM",
@@ -376,7 +376,11 @@
         "coordinates": "18°23′50″N 66°42′03″W"
       },
       "description": "A breathtaking cave with a large window opening overlooking the valley below.",
-      "images": ["cuevaventana1.jpg", "cuevaventana2.jpg", "cuevaventana3.jpg"],
+      "images": [
+        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/40/36/5c/explore-one-of-puerto.jpg?w=1400&h=800&s=1",
+        "cuevaventana2.jpg",
+        "cuevaventana3.jpg"
+      ],
       "activities": ["Hiking", "Cave Exploration", "Photography"],
       "how_to_get_there": {
         "by_car": "Take PR-10 to Arecibo and follow signs to Cueva Ventana."
@@ -392,7 +396,8 @@
       },
       "description": "One of the largest cave systems in the Western Hemisphere, featuring underground rivers and limestone formations.",
       "images": [
-        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2e/40/36/5c/explore-one-of-puerto.jpg?w=1400&h=800&s=1",
+        "https://a.travel-assets.com/findyours-php/viewfinder/images/res70/243000/243816-Rio-Camuy-Cave-Park-Parque-De-Las-Cavernas-Del-Rio-Camuy.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+
         "camuycaves2.jpg",
         "camuycaves3.jpg"
       ],
