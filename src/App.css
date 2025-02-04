@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+h2 {
+  font-family: 'Playwrite GB S', serif;
+}
+
 /* Navigation Bar */
 nav {
   display: flex;
@@ -50,8 +54,8 @@ nav {
   border-radius: 5px;
   line-height: 1;
 }
-.social-media-icons:hover {
-  background-color: #15aea2;
+.social-media-icons:hover i {
+  color: #15aea2;
 }
 button {
   background-color: #f6fffe;
@@ -67,6 +71,7 @@ button {
 button:hover {
   background-color: #15aea2;
   color: #ffffff;
+  transition: opacity 0.4s ease-in-out;
 }
 
 /* Attraction Grid Layout */
@@ -150,6 +155,7 @@ section {
   opacity: 0;
   color: white;
   border-radius: 8px;
+  transition: opacity 0.4s ease-in-out;
 }
 
 .attraction-card:hover .attraction-card-hover {
