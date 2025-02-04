@@ -73,7 +73,10 @@ button:hover {
 /* Main body */
 
 section {
-  background-image: https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTr8__guF-KMskBDpvDdXKFzx8si6qbBKlmaG_kVYb09bv2Jo7RqloKZW4grMvrtZTZg47sNnAb1xavEreqVve30V_iLl2yHvtKwQlwAA;
+  background-image: url('https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTr8__guF-KMskBDpvDdXKFzx8si6qbBKlmaG_kVYb09bv2Jo7RqloKZW4grMvrtZTZg47sNnAb1xavEreqVve30V_iLl2yHvtKwQlwAA');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 /* Attraction Cards */
