@@ -15,21 +15,27 @@ const App = () => {
   return (
     <div>
       <nav>
-        <img className="logo" src={puertoRicoLogo} alt="Discover Puerto Rico" />
-        <div className="social-media-wrapper">
-          {socialmediaData.social_media.map((platform) => (
-            <SocialMedia
-              key={platform.name}
-              link={platform.link}
-              icon={platform.icon}
-            />
-          ))}
-        </div>
+        <div className="nav-wrapper">
+          <img
+            className="logo"
+            src={puertoRicoLogo}
+            alt="Discover Puerto Rico"
+          />
+          <div className="social-media-wrapper">
+            {socialmediaData.social_media.map((platform) => (
+              <SocialMedia
+                key={platform.name}
+                link={platform.link}
+                icon={platform.icon}
+              />
+            ))}
+          </div>
 
-        <CategoryNavigation
-          categories={attractionsData.categories}
-          setSelectedCategory={setSelectedCategory}
-        />
+          <CategoryNavigation
+            categories={attractionsData.categories}
+            setSelectedCategory={setSelectedCategory}
+          />
+        </div>
       </nav>
       <section className="main-body-wrapper">
         <AttractionsList

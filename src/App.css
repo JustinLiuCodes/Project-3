@@ -14,13 +14,17 @@ body {
 
 /* Navigation Bar */
 nav {
+  background-image: url('https://welcome.topuertorico.org/img/gi-morro-aerial-view.webp');
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
   gap: 20px;
-  background-color: rgb(255, 206, 196);
-  padding: 20px;
+  background-color: rgba(255, 206, 196, 1);
+}
+.nav-wrapper {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
 }
 
 .logo {
@@ -33,6 +37,8 @@ nav {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+
   gap: 30px;
 }
 .social-media-icons i {
@@ -73,10 +79,14 @@ button:hover {
 /* Main body */
 
 section {
-  background-image: url('https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTr8__guF-KMskBDpvDdXKFzx8si6qbBKlmaG_kVYb09bv2Jo7RqloKZW4grMvrtZTZg47sNnAb1xavEreqVve30V_iLl2yHvtKwQlwAA');
+  background-image: url('https://lp-cms-production.imgix.net/2024-08/GettyRF954412750.jpg?fit=crop&w=2048&auto=format&q=75');
   background-size: cover;
   background-position: center;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 /* Attraction Cards */
@@ -84,7 +94,6 @@ section {
   background-color: #f0f0f0;
   padding: 10px;
   border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
