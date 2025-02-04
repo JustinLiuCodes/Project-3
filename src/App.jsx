@@ -6,6 +6,7 @@ import './App.css'
 import SocialMedia from './components/SocialMedia'
 import socialmediaData from './data/socialmedia.json'
 import puertoRicoLogo from './images/PuertoRico logo.svg'
+import puertoRicoVideo from './images/PuertoRico_video.mp4'
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(
@@ -14,6 +15,11 @@ const App = () => {
 
   return (
     <div>
+      <video autoPlay loop muted playsInline className="background-video">
+        <source src={puertoRicoVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
       <nav>
         <div className="nav-wrapper">
           <img

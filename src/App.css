@@ -24,7 +24,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(210, 255, 240, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   width: 100%;
   gap: 20px;
   padding: 20px;
@@ -77,14 +77,13 @@ button:hover {
   padding: 20px;
   max-width: 80vw;
   margin: 0 auto;
-  background-color: rgba(252, 255, 255, 0.8);
+
   border-radius: 20px;
 }
 
 /* Main body */
 
 section {
-  background-image: url('https://lp-cms-production.imgix.net/2024-08/GettyRF954412750.jpg?fit=crop&w=2048&auto=format&q=75');
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -95,11 +94,23 @@ section {
   padding: 20px;
   opacity: 1;
 }
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+}
 
 .main-body-wrapper {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.1);
   padding-top: 40px;
   display: flex;
-  align-items: flex-start; /* Aligns children at the top */
+  align-items: flex-start;
 }
 
 /* Attraction Cards */
