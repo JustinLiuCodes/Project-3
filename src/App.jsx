@@ -31,10 +31,12 @@ const App = () => {
           setSelectedCategory={setSelectedCategory}
         />
       </nav>
-      <AttractionsList
-        attractions={attractionsData.attractions}
-        selectedCategory={selectedCategory}
-      />
+      <section className="main-body-wrapper">
+        <AttractionsList
+          attractions={attractionsData.attractions}
+          selectedCategory={selectedCategory}
+        />
+      </section>
     </div>
   )
 }
