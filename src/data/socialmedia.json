@@ -1,0 +1,24 @@
+{
+  "social_media": [
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/",
+      "icon": "fa-square-facebook"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/",
+      "icon": "fa-square-instagram"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/",
+      "icon": "fa-square-twitter"
+    },
+    {
+      "name": "YouTube",
+      "link": "https://www.youtube.com/",
+      "icon": "fa-square-youtube"
+    }
+  ]
+}
