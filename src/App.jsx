@@ -5,7 +5,7 @@ import attractionsData from './data/attractions.json'
 import './App.css'
 import SocialMedia from './components/SocialMedia'
 import socialmediaData from './data/socialmedia.json'
-import puertoRicoLogo from './images/PuertoRico logo.png'
+import puertoRicoLogo from './images/PuertoRico logo.svg'
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(
@@ -14,19 +14,23 @@ const App = () => {
 
   return (
     <div>
-      <img src={puertoRicoLogo} alt="Discover Puerto Rico" />
+      <nav>
+        <img className="logo" src={puertoRicoLogo} alt="Discover Puerto Rico" />
+        <div className="social-media-wrapper">
+          {socialmediaData.social_media.map((platform) => (
+            <SocialMedia
+              key={platform.name}
+              link={platform.link}
+              icon={platform.icon}
+            />
+          ))}
+        </div>
 
-      {socialmediaData.social_media.map((platform) => (
-        <SocialMedia
-          key={platform.name}
-          link={platform.link}
-          icon={platform.icon}
+        <CategoryNavigation
+          categories={attractionsData.categories}
+          setSelectedCategory={setSelectedCategory}
         />
-      ))}
-      <CategoryNavigation
-        categories={attractionsData.categories}
-        setSelectedCategory={setSelectedCategory}
-      />
+      </nav>
       <AttractionsList
         attractions={attractionsData.attractions}
         selectedCategory={selectedCategory}
