@@ -5,7 +5,6 @@ const AttractionCard = ({ attraction }) => {
         <img src={attraction.images[0]} alt={attraction.name} />
         <div className="attraction-card-hover">{attraction.description}</div>
       </div>
-
       <h3>{attraction.name}</h3>
     </div>
   )

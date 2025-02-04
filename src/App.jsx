@@ -5,8 +5,8 @@ import attractionsData from './data/attractions.json'
 import './App.css'
 import SocialMedia from './components/SocialMedia'
 import socialmediaData from './data/socialmedia.json'
-import puertoRicoLogo from './images/PuertoRico logo.svg'
-import puertoRicoVideo from './images/PuertoRico_video.mp4'
+import puertoRicoLogo from './media/PuertoRico logo.svg'
+import puertoRicoVideo from './media/PuertoRico_video.mp4'
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(
